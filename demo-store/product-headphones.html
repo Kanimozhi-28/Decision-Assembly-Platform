@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio-X Carbon | Forge Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-page {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 80px 5%;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .main-img {
+            width: 100%;
+            border-radius: 32px;
+            background: var(--glass);
+        }
+
+        .details h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .details .price {
+            font-size: 2rem;
+            color: var(--muted);
+            margin-bottom: 2rem;
+        }
+
+        .details p {
+            margin-bottom: 2rem;
+            color: #d1d1d6;
+        }
+
+        .cta-btn {
+            background: #0071e3;
+            color: white;
+            padding: 1.2rem 3rem;
+            border-radius: 40px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo" style="text-decoration: none; color: white;">FORGE TECH</a>
+    </nav>
+
+    <div class="product-page">
+        <div class="image-container"
+            style="background: var(--glass); border-radius: 32px; display: flex; align-items: center; justify-content: center; height: 500px;">
+            <img src="images/headphones.png" alt="Audio-X Carbon" class="main-img"
+                style="width: 80%; object-fit: contain;">
+        </div>
+        <div class="details">
+            <div class="category">Audio</div>
+            <h1>Audio-X Carbon</h1>
+            <div class="price" id="p-price">$599.00</div>
+            <p>Studio-grade audio with carbon fiber drivers. Features adaptive active noise cancellation, 40-hour
+                battery life, and ultra-low latency wireless connectivity.</p>
+            <a href="#" class="cta-btn" id="buy-now">Buy Now</a>
+        </div>
+    </div>
+
+    <!-- DAP SDK LOADER -->
+    <script src="http://localhost:8000/sdk/loader.js" data-site-id="f203f546-e89b-48da-8007-0653a57debab"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Watch | ModernShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Note the relative path back to root assets -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <style>
+        .product-detail-container {
+            display: flex;
+            gap: 4rem;
+            padding: 4rem 0;
+            align-items: flex-start;
+        }
+
+        .product-detail-image {
+            flex: 1;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .product-detail-image img {
+            width: 100%;
+            display: block;
+        }
+
+        .product-detail-info {
+            flex: 1;
+        }
+
+        .product-detail-info h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+
+        .product-detail-price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+
+        .product-detail-description {
+            font-size: 1.125rem;
+            color: var(--gray-500);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .product-features {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-200);
+        }
+
+        .product-features h4 {
+            margin-bottom: 1rem;
+        }
+
+        .product-features li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .product-features i {
+            color: #10b981;
+        }
+
+        @media (max-width: 768px) {
+            .product-detail-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="../index.html" class="logo">MODERNSHOP</a>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html#products">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="cart-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <a href="#" class="user-profile"><i class="fa-solid fa-user"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="product-detail-container">
+            <div class="product-detail-image">
+                <img src="../assets/images/products/watch.jpg" alt="Minimalist Watch">
+            </div>
+            <div class="product-detail-info">
+                <nav style="margin-bottom: 1rem; font-size: 0.875rem; color: var(--gray-500);">
+                    <a href="../index.html">Home</a> / <a href="../index.html#products">Shop</a> / Accessories
+                </nav>
+                <h1>Minimalist Quartz Watch</h1>
+                <div class="product-detail-price">$129.00</div>
+                <p class="product-detail-description">
+                    A timeless piece designed for the modern professional. Crafted with high-grade stainless steel and a
+                    scratch-resistant sapphire crystal lens, this watch combines durability with a sleek, minimalist
+                    aesthetic.
+                </p>
+
+                <div class="cta-group">
+                    <button class="btn btn-primary add-to-cart" style="flex: 2;">Add to Cart</button>
+                    <button class="btn" style="flex: 1; border: 1px solid var(--gray-200);"><i
+                            class="fa-regular fa-heart"></i></button>
+                </div>
+
+                <div class="product-features">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-circle-check"></i> Genuine leather strap</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 5 ATM water resistance</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Japanese Quartz movement</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 2-year warranty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Simplified footer or reuse the same -->
+        <div class="container" style="text-align: center;">
+            <p>&copy; 2024 ModernShop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

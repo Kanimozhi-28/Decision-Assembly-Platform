@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAP SDK Test - Customer Site</title>
+</head>
+
+<body>
+    <h1>Welcome to My Store</h1>
+    <p>This page simulates a customer's website where the DAP SDK is installed.</p>
+
+    <div id="product-details">
+        <h2>Amazing Blue Shirt</h2>
+        <p>Price: $29.99</p>
+        <p>Contact: support@mystore.com</p>
+    </div>
+
+    <!-- DAP SDK LOADER -->
+    <!-- Note: In a real scenario, this URL would be your CDN/Backend -->
+    <script src="./dist/loader.js" data-site-id="f203f546-e89b-48da-8007-0653a57debab"></script>
+
+    <script>
+        // Manually trigger an event after a delay
+        setTimeout(() => {
+            if (window.DAP) {
+                window.DAP.push({
+                    type: 'page_view',
+                    data: { custom: 'info' }
+                });
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>

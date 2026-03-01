@@ -1,0 +1,165 @@
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Lock retrieval failed: 3 validation errors for Filter
+min_should.conditions
+  Field required [type=missing, input_value={'minimum': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+min_should.min_count
+  Field required [type=missing, input_value={'minimum': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+min_should.minimum
+  Extra inputs are not permitted [type=extra_forbidden, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Lock returned NO products.
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Lock returned NO products.
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Lock returned NO products.
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Querying variant: http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Points found for http://localhost:8000/test-sites/banking/banking-kids-junior-account.html: 0
+[SERVICE] [ASSEMBLE] Querying variant: http://127.0.0.1:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Points found for http://127.0.0.1:8000/test-sites/banking/banking-kids-junior-account.html: 0
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-kids-junior-account.html
+[SERVICE] [ASSEMBLE] Checking URL: http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Querying variant: http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Points found for http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html: 0
+[SERVICE] [ASSEMBLE] Querying variant: http://127.0.0.1:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Points found for http://127.0.0.1:8000/test-sites/banking/banking-women-empowerment-savings.html: 0
+[SERVICE] [ASSEMBLE] Found 0 points for http://localhost:8000/test-sites/banking/banking-women-empowerment-savings.html
+[SERVICE] [ASSEMBLE] Lock returned NO products.
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Loaded 16 products from site 99999999-9999-4999-9999-999999999999
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-home-secure.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-senior-citizen-savings.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-cashback-pro.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-salary-premium.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-term-life-guard.html
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[SERVICE] [ASSEMBLE] Enforcing Section Visibility Lock for 2 products
+[SERVICE] [ASSEMBLE] Loaded 16 products from site 99999999-9999-4999-9999-999999999999
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-home-secure.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-senior-citizen-savings.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-cashback-pro.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-salary-premium.html
+[SERVICE] [ASSEMBLE] Example URL: http://localhost:8000/test-sites/banking/banking-term-life-guard.html
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: help_me_choose
+[ROUTER DEBUG] Received request for site: 99999999-9999-4999-9999-999999999999, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: compare_options
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: comparison_comparison
+[ROUTER DEBUG] Received request for site: 88888888-8888-4888-8888-888888888888, intent: check_eligibility
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: comparison_comparison
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: just_exploring
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: just_exploring
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: check_eligibility
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: comparison_eligibility
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: compare_options
+[ROUTER DEBUG] Received request for site: 77777777-7777-4777-7777-777777777777, intent: comparison_technical specs
